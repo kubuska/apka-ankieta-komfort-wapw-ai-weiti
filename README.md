@@ -11,7 +11,7 @@ Panel /admin umożliwia osobny eksport badania komfortu i poprzedniej ankiety. O
 
 ## Edycja i uruchomienie
 Pytania i treść: app/page.tsx. Opcje i walidacja: lib/survey.ts. Styl: app/globals.css. Logotypy: public/wapw.png i public/ai.png. Są to oryginalne obrazy dostarczone przez użytkownika.
-Node.js 22.13+ i npm: npm ci, npm run build, npm run dev.
+Node.js 22.13+ i npm: npm install, npm run build, npm run dev.
 Konfiguracja Sites jest w .openai/hosting.json; wymagane powiązanie D1 DB i sekret ADMIN_TOKEN. Aktualizacja nie wymaga migracji, ponieważ zachowuje dotychczasowy schemat.
 Przy nowym, niezależnym wdrożeniu należy utworzyć własny projekt Sites, bazę i sekret; przy aktualizacji obecnego wdrożenia zachowaj jego identyfikator. Nie publikuj prywatnego klucza razem z kodem.
 
